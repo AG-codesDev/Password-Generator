@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(31, 31, 31);
+    background-color: skyblue;
 }
 
 div {
@@ -20,17 +20,17 @@ button {
 }
 
 button:active {
-    /* background-color: black; */
     transform: scale(1.1);
 
 }
 
 #displayPassword {
-    color: white;
+    color: red;
+    font-weight: bold;
     position: absolute;
     top: 53vh;
     left: 34vw;
-    font-size: 25px;
+    font-size: 27px;
     font-family: 'Rubik Iso', cursive;
 
 }
@@ -38,16 +38,16 @@ button:active {
 span {
     font-size: 45px;
     font-family: 'Mochiy Pop One', sans-serif;
-    color: greenyellow;
-    /* border: 2px solid red; */
+    color: black;
 }
 
 h1 {
     margin-top: 20px;
     text-align: center;
-    color: white;
+    color: black;
+    background-color: white;
     font-family: 'Tilt Prism', cursive;
     font-size: 50px;
     letter-spacing: 3px;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
